@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Bootstrap demo</title>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+                      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+                <script src="https://kit.fontawesome.com/b1e0936b7f.js" crossorigin="anonymous"></script>
+                <link rel="stylesheet" href="css/styles.css">
+            </head>
+<body>
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">On Site IT Solutions</a>
+                    <button type="button" class="btn btn-primary"><a class="text-light" href="tel:505-595-7252">Call Us Now</a>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#showcase">Showcase</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+                <!-- I still need to stretch the large image to the edge of the browser -->
+                <div class="mb-5">
+                    <img class="container d-flex d-md-none p-0" src="img/itCloudSm.jpg" alt="IT Cloud Small">
+                    <img class="container d-none d-md-flex img-fluid" src="img/itCloud.jpg" alt="IT Cloud Full">
+                    <!-- https://dev.to/ekimcem/how-to-hide-something-on-different-screen-sizes-with-bootstrap-3ha7
+                        This is where I found out how to add/remove img on diff. screen sizes-->
+                </div>
+
+                <!--==========================
+                    About Section
+                ============================-->
+                <div id="about" class="mb-5">
+                    <h2 class="text-center mb-5">About Us</h2>
+                </div>
+
+                <div class="container row">
+                    <div class="col-md-6">
+                        <p class="text-center fw-bold"><i class="fa-sharp fa-solid fa-circle-info me-1"></i>Who We Are
+                    </p>
+                        <p class="text-center">Sensors indicate human life forms 30 meters below the planet's surface.
+                            Stellar
+                            flares are increasing in magnitude and frequency. Set course for Rhomboid Dronegar 006, warp
+                            seven. </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="text-center fw-bold"><i class="fa-sharp fa-solid fa-magnifying-glass me-1"></i>Found
+                        By</p>
+                        <p class="text-center">here's no evidence of an advanced communication network. Total guidance
+                            system
+                            failure, with less than 24 hours' reserve power. Shield effectiveness has been reduced 12
+                            percent.</p>
+                    </div>
+                </div>
+
+            <div class="container row">
+                <div class="col-md-6">
+                    <p class="text-center fw-bold"><i class="fa-sharp fa-solid fa-building me-1"></i>Location</p>
+                    <p class="text-center">here's no evidence of an advanced communication network. Total guidance
+                        system
+                        failure, with less than 24 hours' reserve power. Shield effectiveness has been reduced 12
+                        percent.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <p class="text-center fw-bold"><i class="fa-sharp fa-solid fa-server me-1"></i>Our Services</p>
+                    <p class="text-center">We have covered the area in a spherical pattern which a ship without warp
+                        drive
+                        could cross in the given time.</p>
+                </div>
+            </div>
+
+
+
+
+                <!--==========================
+                    Showcase Section
+                ============================-->
+            <div id="showcase" class="bg-dark-subtle py-3"> <!-- try this for the navbar CONTAINER ROWS COLLUMNS -->
+                <div class="container my-5">
+                    <div>
+                        <h2 class="text-center mt-5">Showcase</h2>
+                        <p class="text-center fs-5">Check out our Work</p>
+                    </div>
+                    <div class="container row">
+                        <div class="col-md-3 py-5 px-5">
+                            <img class="col-md-3" src="img/sqPlaceholder.png" alt="Square Placeholder">
+                            <div class="col-md-9 pt-5">
+                                <p class="text-center">Small Project Description here</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-5 px-5">
+                            <img class="col-md-3" src="img/sqPlaceholder.png" alt="Square Placeholder">
+                            <div class="col-md-9 pt-5">
+                                <p class="text-center">Small Project Description here</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 py-5 px-5">
+                            <img class="col-md-3" src="img/sqPlaceholder.png" alt="Square Placeholder">
+                            <div class="col-md-9 pt-5">
+                                <p class="text-center">Small Project Description here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+</html>
