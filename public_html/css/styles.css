@@ -2,5 +2,20 @@ a[href] {
     text-decoration: none;
 }
 
+#imgText {
+    position: absolute;
+    top: 100px;
+}
 
+#imgBtn {
+    position: absolute;
+    top: 500px;
+}
 
+a[href^="https"] {
+    color: #000;
+}
+
+a:hover[href^="https"] {
+    color: #00f;
+}
