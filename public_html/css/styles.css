@@ -2,7 +2,12 @@ a[href] {
     text-decoration: none;
 }
 
-#imgText {
+#imgText1 {
+    position: absolute;
+    top: 100px;
+}
+
+#imgText2 {
     position: absolute;
     top: 100px;
 }
